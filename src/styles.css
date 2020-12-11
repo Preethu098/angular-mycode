@@ -1,8 +1,8 @@
 /* Global Styles */
-
+html{background-color: rgb(47, 6, 100);}
 * {
   font-family: 'Roboto', Arial, sans-serif;
-  color: #616161;
+  color: #e4bdda;
   box-sizing: border-box;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -43,7 +43,7 @@ p {
 
 a {
   cursor: pointer;
-  color: #1976d2;
+  color: #e7edf3;
   text-decoration: none;
 }
 
@@ -77,7 +77,7 @@ label {
   border-radius: 2px;
   font-size: 14px;
   cursor: pointer;
-  background-color: #1976d2;
+  background-color: #d32097;
   color: white;
   border: none;
 }
@@ -95,13 +95,13 @@ label {
 /* Fancy Button */
 
 .fancy-button {
-  background-color: white;
-  color: #1976d2;
+  background-color: rgb(236, 225, 229);
+  color: #380928;
 }
 
 .fancy-button i.material-icons {
-  color: #1976d2;
-  padding-right: 4px;
+  color: #a71b84;
+  padding-right: 5px;
 }
 
 /* Top Bar */
@@ -109,7 +109,7 @@ label {
 app-top-bar {
   width: 100%;
   height: 68px;
-  background-color: #1976d2;
+  background-color: #8d3f7a;
   padding: 16px;
   display: flex;
   flex-direction: row;
@@ -134,7 +134,7 @@ app-top-bar h1 {
   padding: 16px 32px;
   margin-bottom: 8px;
   border-radius: 2px;
-  background-color: #EEEEEE;
+  background-color: rgb(58, 14, 35);
 }
 
 
